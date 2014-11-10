@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Commission Junction API Wrapper for Meteor",
+  summary: "Commission Junction (CJ Affiliate by Conversant) API wrapper for Meteor",
   version: "1.0.0",
   git: "https://github.com/bredikhin/meteor-cj"
 });
