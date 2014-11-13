@@ -14,7 +14,7 @@ Cj = function(config) {
 
   this.developerKey = config.developerKey;
   this.websiteId = config.websiteId;
-}
+};
 
 // Product search
 Cj.prototype.productSearch = function(params, done) {
@@ -38,7 +38,7 @@ Cj.prototype.productSearch = function(params, done) {
       done(null, content['cj-api'].products[0])
     });
   });
-}
+};
 
 // Link search
 Cj.prototype.linkSearch = function(params, done) {
@@ -62,4 +62,4 @@ Cj.prototype.linkSearch = function(params, done) {
       done(null, content['cj-api'].links[0])
     });
   });
-}
+};
